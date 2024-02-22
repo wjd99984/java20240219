@@ -2,9 +2,10 @@ package c03.lecture.plarithemetic.p4logcal;
 
 public class C04ShortCircuit {
     public static void main(String[] args) {
-        //단락 
+        // 단락 (short-circuit evaluation)
 
         int i = 10;
+
         boolean b1 = (i++) == 10;
         System.out.println("b1 = " + b1);
 
@@ -22,6 +23,10 @@ public class C04ShortCircuit {
         System.out.println("b4 = " + b4);
         System.out.println("i = " + i);
 
+        i = 10;
+        boolean b5 = (i++) == 20 & (i++) == 30;
+        System.out.println("b5 = " + b5);
+        System.out.println("i = " + i);
 
     }
 }
