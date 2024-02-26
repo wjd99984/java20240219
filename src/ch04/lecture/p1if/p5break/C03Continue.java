@@ -9,7 +9,6 @@ public class C03Continue {
                 continue;
             }
 
-
             System.out.println("어떤 명령문");
         }
     }
