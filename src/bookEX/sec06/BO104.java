@@ -1,4 +1,4 @@
-package ch03.sec06;
+package bookEX.sec06;
 
 public class BO104 {
     public static void main(String[] args) {
