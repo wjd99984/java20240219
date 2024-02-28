@@ -10,7 +10,7 @@ public class C02For {
             System.out.println("other statements!!!");
         }
 
-        for (int i = 0; i < 10; i += 2) {
+        for (int i = 0; i <= 10; i += 2) {
             System.out.println("another statements@@");
         }
 
