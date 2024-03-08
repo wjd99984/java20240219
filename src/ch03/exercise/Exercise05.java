@@ -6,6 +6,11 @@ public class Exercise05 {
         int lengthBottom = 10;
         int height = 7;
 
+
+        //(밑변+윗변)*2 /2
+        //실수로 표현 시 알맞지않은것
+        //
+
         double area1 = (lengthTop + lengthBottom) * height / 2.0;
         System.out.println("area1 = " + area1);
 

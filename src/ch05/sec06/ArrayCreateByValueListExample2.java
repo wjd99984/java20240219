@@ -14,6 +14,8 @@ public class ArrayCreateByValueListExample2 {
 
         for (int i = 0; i < scores.length; i++) {
             sum1 += scores[i];
+
+
         }
 
         System.out.println("sum1 = " + sum1);

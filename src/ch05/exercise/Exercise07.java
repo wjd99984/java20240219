@@ -15,7 +15,5 @@ public class Exercise07 {
                 max = item;
             }
         }
-
-        System.out.println("max = " + max);
     }
 }
